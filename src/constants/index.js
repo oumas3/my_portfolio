@@ -26,6 +26,9 @@ import {
   jobit,
   tripguide,
   threejs,
+  tool,
+  FLL,
+  port
 } from "../assets";
 
 export const navLinks = [
@@ -186,58 +189,41 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Fleet Management",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that has driver management, insurance management, vehicles management.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
+        name: "laravel",
         color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
       },
       {
         name: "restapi",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "tailwind css",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: FLL,
+    source_code_link: "https://github.com/oumas3/Fleet_management_app",
   },
   {
-    name: "Trip Guide",
+    name: "AI Paraphrasing tool ",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Web application that enables users to paraphrase their text easily.",
     tags: [
       {
-        name: "nextjs",
+        name: "flask",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "html",
         color: "green-text-gradient",
       },
       {
@@ -245,8 +231,29 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: tool,
+    source_code_link: "https://github.com/oumas3/Paraphrasing_model_CNNDS",
+  },
+  {
+    name: "Portfolio",
+    description:
+      "A portfolio that showcases the profile of a developer.",
+    tags: [
+      {
+        name: "threejs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "react",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: port,
+    source_code_link: "https://github.com/oumas3/my_portfolio",
   },
 ];
 

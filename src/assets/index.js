@@ -22,7 +22,9 @@ import threejs from "./tech/threejs.svg";
 import salvia from "./tech/salvia.png";
 import fact from "./tech/3D.png";
 import pro from './tech/pro.jpeg'
-
+import tool from './tool.png';
+import FLL from './FLL.png';
+import port from './port.png';
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
@@ -64,4 +66,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  FLL,
+  tool,
+  port
 };
