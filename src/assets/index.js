@@ -6,9 +6,8 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
-
+import lara from "./tech/lara.jpg"
 import css from "./tech/css.png";
-import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
@@ -20,6 +19,9 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import salvia from "./tech/salvia.png";
+import fact from "./tech/3D.png";
+import pro from './tech/pro.jpeg'
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -40,7 +42,7 @@ export {
   menu,
   close,
   css,
-  docker,
+  lara,
   figma,
   git,
   html,
@@ -56,6 +58,9 @@ export {
   shopify,
   starbucks,
   tesla,
+  salvia,
+  fact,
+  pro,
   carrent,
   jobit,
   tripguide,
